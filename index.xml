@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rendiwijiatmoko.</title>
+    <link>/</link>
+    <description>Recent content on rendiwijiatmoko.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 12 Sep 2019 14:43:09 +0700</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React Day 1</title>
+      <link>/30daysreact/react-day1/</link>
+      <pubDate>Thu, 12 Sep 2019 14:43:09 +0700</pubDate>
+      
+      <guid>/30daysreact/react-day1/</guid>
+      <description>Hari ini saya memulai challenge iseng-iseng untuk belajar sekaligus melatih koding saya, dan selama 30 hari kedepan saya akan menuliskan perkembangan saya belajar ReactJS.
+Apa Itu React? React adalah sebuah library JavaScript yang bersifat open source untuk membuat tampilan front end yang dibuat oleh Facebook. Front end adalah sebuah interface UI atau tampilan pada sebuah web atau aplikasi, dan React diciptakan dengan tujuan untuk membangun aplikasi dalam skala besar dengan data yang terus berubah dari waktu ke waktu.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 12 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>I&amp;rsquo;m Junior Developer A junior Python and Golang developer with a strong passion to learn new things. Conversant with few Python frameworks like Django and Flask and recently finished constructing API for a production system using Django. Has essential focus in Golang frameworks, especially Echo. An influenced programmer who keep learning about fundamentals of language and moving forward into progressive web development.</description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/projects/</link>
+      <pubDate>Wed, 11 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/</guid>
+      <description>Mohon maaf, Halaman ini sedang dalam perbaikan</description>
+    </item>
+    
+  </channel>
+</rss>

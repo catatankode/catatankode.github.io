@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="Rendi Wijiatmoko ">
+<meta name="description"
+    content="Hari ini saya memulai challenge iseng-iseng untuk belajar sekaligus melatih koding saya, dan selama 30 hari kedepan saya akan menuliskan perkembangan saya belajar ReactJS.
+Apa Itu React? React adalah sebuah library JavaScript yang bersifat open source untuk membuat tampilan front end yang dibuat oleh Facebook. Front end adalah sebuah interface UI atau tampilan pada sebuah web atau aplikasi, dan React diciptakan dengan tujuan untuk membangun aplikasi dalam skala besar dengan data yang terus berubah dari waktu ke waktu." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/30daysreact/react-day1/" />
+
+
+<title>
+    
+    React Day 1 | rendiwijiatmoko. 
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.0762e0e8e29efb0e18ada6159ca05ea8a65bb261c72baceadcb76fd005157a6d.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="theme-color" content="#252627"><meta itemprop="name" content="React Day 1">
+<meta itemprop="description" content="Hari ini saya memulai challenge iseng-iseng untuk belajar sekaligus melatih koding saya, dan selama 30 hari kedepan saya akan menuliskan perkembangan saya belajar ReactJS.
+Apa Itu React? React adalah sebuah library JavaScript yang bersifat open source untuk membuat tampilan front end yang dibuat oleh Facebook. Front end adalah sebuah interface UI atau tampilan pada sebuah web atau aplikasi, dan React diciptakan dengan tujuan untuk membangun aplikasi dalam skala besar dengan data yang terus berubah dari waktu ke waktu.">
+
+
+<meta itemprop="datePublished" content="2019-09-12T14:43:09&#43;07:00" />
+<meta itemprop="dateModified" content="2019-09-12T14:43:09&#43;07:00" />
+<meta itemprop="wordCount" content="497">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="React Day 1"/>
+<meta name="twitter:description" content="Hari ini saya memulai challenge iseng-iseng untuk belajar sekaligus melatih koding saya, dan selama 30 hari kedepan saya akan menuliskan perkembangan saya belajar ReactJS.
+Apa Itu React? React adalah sebuah library JavaScript yang bersifat open source untuk membuat tampilan front end yang dibuat oleh Facebook. Front end adalah sebuah interface UI atau tampilan pada sebuah web atau aplikasi, dan React diciptakan dengan tujuan untuk membangun aplikasi dalam skala besar dengan data yang terus berubah dari waktu ke waktu."/>
+
+
+
+
+<meta property="article:published_time" content="2019-09-12 14:43:09 &#43;0700 WIB" />
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">rendiwijiatmoko.</span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/projects/">Projects</a></li><li><a href="/30daysreact/">30 Days</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="theme-toggler" width="30" height="30" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 60 60" style="enable-background:new 0 0 60 60;" xml:space="preserve">
+  <path d="M42,12H18C8.075,12,0,20.075,0,30s8.075,18,18,18h24c9.925,0,18-8.075,18-18S51.925,12,42,12z M18,43  c-7.168,0-13-5.832-13-13s5.832-13,13-13s13,5.832,13,13S25.168,43,18,43z M49.707,26.707l-8,8C41.512,34.902,41.256,35,41,35  s-0.512-0.098-0.707-0.293l-4-4c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0L41,32.586l7.293-7.293  c0.391-0.391,1.023-0.391,1.414,0S50.098,26.316,49.707,26.707z"/>
+  <g>
+</svg></span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="/30daysreact/react-day1/">React Day 1</a></h1>
+            <hr>
+
+            
+
+            <div class="post-content">
+                
+
+<p>Hari ini saya memulai <em>challenge</em> iseng-iseng untuk belajar sekaligus melatih koding saya, dan selama 30 hari kedepan saya akan menuliskan perkembangan saya belajar <strong>ReactJS</strong>.</p>
+
+<h2 id="apa-itu-react">Apa Itu React?</h2>
+
+<p><img src="https://reactjs.org/logo-og.png" alt="React logo" /></p>
+
+<p><a href="facebook.github.io/react/">React</a> adalah sebuah <strong>library</strong> JavaScript yang bersifat <em>open source</em> untuk membuat tampilan front end yang dibuat oleh Facebook. Front end adalah sebuah interface UI atau tampilan pada sebuah web atau aplikasi, dan React diciptakan dengan tujuan untuk membangun aplikasi dalam skala besar dengan data yang terus berubah dari waktu ke waktu.</p>
+
+<p>Pada dasarnya aplikasi React adalah sebuah komponen, dan komponen itu bisa saja terdiri dari sekumpulan komponen lainnya. Di dalam satu komponen berisi sebuah fungsi atau method untuk menghasilkan <em>output</em>.</p>
+
+<p>Contohnya kita membuat sebuah <em>form</em>. Dalam sebuah <em>form</em> terdapat beberapa lement interface seperti <em>input</em>, <em>label</em>, dan <em>button</em>. Setiap element itu ditulis menggunakan React komponen.</p>
+
+<h2 id="bagaimana-menggunakan-react">Bagaimana Menggunakan React?</h2>
+
+<p>Seperti yang saya katakan bahwa React adalah sebuah <em>library</em> JavaScript, maka untuk menggunakannya kita menggunakan JavaScript dan HTML.</p>
+
+<p>Contohnya untuk menuliskan <strong>Hello World!</strong></p>
+<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span> Hello World<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+
+    <span class="c">&lt;!-- React dalam bentuk CDN --&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">crossorigin</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/react@16/umd/react.development.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">crossorigin</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/react-dom@16/umd/react-dom.development.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://unpkg.com/babel-standalone@6/babel.min.js&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+<span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&#34;app&#34;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">type</span><span class="o">=</span><span class="s">&#34;text/babel&#34;</span><span class="p">&gt;</span>
+    <span class="nx">ReactDOM</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span>
+        <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Hello</span> <span class="nx">World</span><span class="o">&lt;</span><span class="err">/h1&gt;,</span>
+        <span class="nb">document</span><span class="p">.</span><span class="nx">querySelector</span><span class="p">(</span><span class="s1">&#39;#app&#39;</span><span class="p">)</span>
+    <span class="p">);</span>
+    <span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></div>
+<p>Jika dilihat memang sangat aneh, dimana tag HTML ditulis di dalam JavaScript. Ini di karenakan React menggunakan JSX. JSX atau <em>extended JavaScript</em> adalah sebuah pengembangan JavaScript dimana kode HTML bisa diikut sertakan dalam JavaScript.</p>
+
+<h2 id="peraturan-jsx">Peraturan JSX</h2>
+
+<p>Penulisan JSX memang terlihat aneh tetapi sebenarnnya tidak sulit kalau kita mengetahui dasar-dasar HTML. Seperti pada sintaks lainnya yang memiliki aturan, JSX juga memiliki aturan agar nyaman ditulis dan <em>compiler</em> tidak <em>error</em>.</p>
+
+<h3 id="kode-html-harus-nested">Kode HTML harus nested</h3>
+
+<p>Artinya kode HTML harus memiliki awalan dan akhiran yang jelas agar tidak <em>error</em> saat dijalankan.
+contoh</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="k">class</span> <span class="nx">HelloWorld</span> <span class="k">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+   <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="p">(</span>
+         <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Hello</span> <span class="nx">World</span><span class="o">!</span><span class="nx">r</span><span class="o">&lt;</span><span class="err">/h1&gt;</span>
+         <span class="o">&lt;</span><span class="err">/div&gt;</span>
+      <span class="p">);</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="kurung-kurawal-untuk-penulisan-javascrpit">Kurung kurawal untuk penulisan javascrpit</h3>
+
+<p>Pada penulisan tag JavaScript boleh menggunakan tag {} seperti menuliskan <em>comment</em></p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="k">export</span> <span class="k">default</span> <span class="k">class</span> <span class="nx">App</span> <span class="k">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+   <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="p">(</span>
+         <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Hello</span> <span class="nx">World</span><span class="o">&lt;</span><span class="err">/h1&gt;</span>
+            <span class="p">{</span><span class="c1">//Ini komentar untuk satu baris...}
+</span><span class="c1"></span>            <span class="p">{</span><span class="cm">/*
+</span><span class="cm">            Ini komentar
+</span><span class="cm">            unutk multiline
+</span><span class="cm">            ..
+</span><span class="cm">            */</span><span class="p">}</span>
+         <span class="o">&lt;</span><span class="err">/div&gt;</span>
+      <span class="p">);</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="self-closing-tag">Self closing tag</h3>
+
+<p>Element HTML yang paling sering di jumpai menggunakan dua tag, yaitu tag pembuka (<code>&lt;div&gt;</code>) dan tag penutup (<code>&lt;/div&gt;</code>). Namun pada beberapa element seperti <code>&lt;img&gt;</code> dan <code>&lt;input&gt;</code>, tag seperti ini hanya menggunakan satu tag, tidak ada tag penutup atau biasa yang di sebut self-closing tag.</p>
+
+<p>Walaupun dalam HTML kita tidak di wajib kan menutup tag seperti ini, ketika kita menuliskan tag HTML self-closing tag dalam JSX, tag wajib di beri tanda slash di penghujung tag.
+contohnya tag (<code>&lt;br&gt;</code>) dibawah ini</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"><span class="k">class</span> <span class="nx">HelloWorld</span> <span class="k">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+   <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="p">(</span>
+         <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="nx">Hello</span> <span class="nx">World</span><span class="o">!</span><span class="nx">r</span><span class="o">&lt;</span><span class="err">/h1&gt;</span>
+            <span class="o">&lt;</span><span class="nx">br</span> <span class="o">/&gt;</span> 
+         <span class="o">&lt;</span><span class="err">/div&gt;</span>
+      <span class="p">);</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<h3 id="css-styling">CSS styling</h3>
+
+<p>Untuk penulisan CSS sendiri menggunakan aturan camelcase misalnya <strong>borderRadius</strong>, <strong>backgroundImage</strong>, dan yang lainnya yang lebih dari satu kata</p>
+<div class="highlight"><pre class="chroma"><code class="language-js" data-lang="js"> <span class="k">class</span> <span class="nx">App</span> <span class="k">extends</span> <span class="nx">React</span><span class="p">.</span><span class="nx">Component</span> <span class="p">{</span>
+   <span class="nx">render</span><span class="p">()</span> <span class="p">{</span>
+
+      <span class="kd">var</span> <span class="nx">myStyle</span> <span class="o">=</span> <span class="p">{</span>
+         <span class="nx">fontSize</span><span class="o">:</span> <span class="mi">100</span><span class="p">,</span>
+         <span class="nx">color</span><span class="o">:</span> <span class="s1">&#39;#FF0000&#39;</span>
+      <span class="p">}</span>
+
+      <span class="k">return</span> <span class="p">(</span>
+         <span class="o">&lt;</span><span class="nx">div</span><span class="o">&gt;</span>
+            <span class="o">&lt;</span><span class="nx">h1</span> <span class="nx">style</span><span class="o">=</span><span class="p">{</span><span class="nx">myStyle</span><span class="p">}</span><span class="o">&gt;</span><span class="nx">Header</span><span class="o">&lt;</span><span class="err">/h1&gt;</span>
+         <span class="o">&lt;</span><span class="err">/div&gt;</span>
+      <span class="p">);</span>
+   <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div>
+<p>Itu adalah sebagian dari pengenalan JSX yang kedepannya kita akan selalu menggunakannya.</p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  			</div>
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2019</span>
+        </div>
+    </div>
+   <div class="footer__inner">
+        <div class="footer__content">
+            <span>Made with &#10084; by <a href="https://github.com/rendiwijiatmoko">Rendi Wijiatmoko</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+        <script>
+"use strict";function addBackToTop(){var o,t,e,n,i=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{},r=i.backgroundColor,d=void 0===r?"#000":r,a=i.cornerOffset,c=void 0===a?20:a,s=i.diameter,l=void 0===s?56:s,u=i.ease,p=void 0===u?function(o){return.5*(1-Math.cos(Math.PI*o))}:u,m=i.id,h=void 0===m?"back-to-top":m,b=i.innerHTML,v=void 0===b?'<svg viewBox="0 0 24 24"><path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"></path></svg>':b,f=i.onClickScrollTo,x=void 0===f?0:f,w=i.scrollContainer,g=void 0===w?document.body:w,k=i.scrollDuration,y=void 0===k?100:k,T=i.showWhenScrollTopIs,M=void 0===T?1:T,z=i.size,E=void 0===z?l:z,C=i.textColor,L=void 0===C?"#fff":C,N=i.zIndex,I=void 0===N?1:N,A=g===document.body,B=A&&document.documentElement;o=Math.round(.43*E),t=Math.round(.29*E),e="#"+h+"{background:"+d+";-webkit-border-radius:50%;-moz-border-radius:50%;border-radius:50%;bottom:"+c+"px;-webkit-box-shadow:0 2px 5px 0 rgba(0,0,0,.26);-moz-box-shadow:0 2px 5px 0 rgba(0,0,0,.26);box-shadow:0 2px 5px 0 rgba(0,0,0,.26);color:"+L+";cursor:pointer;display:block;height:"+E+"px;opacity:1;outline:0;position:fixed;right:"+c+"px;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;-webkit-transition:bottom .2s,opacity .2s;-o-transition:bottom .2s,opacity .2s;-moz-transition:bottom .2s,opacity .2s;transition:bottom .2s,opacity .2s;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;width:"+E+"px;z-index:"+I+"}#"+h+" svg{display:block;fill:currentColor;height:"+o+"px;margin:"+t+"px auto 0;width:"+o+"px}#"+h+".hidden{bottom:-"+E+"px;opacity:0}",(n=document.createElement("style")).appendChild(document.createTextNode(e)),document.head.insertAdjacentElement("afterbegin",n);var D=function(){var o=document.createElement("div");return o.id=h,o.className="hidden",o.innerHTML=v,o.addEventListener("click",function(o){o.preventDefault(),function(){var o="function"==typeof x?x():x,t=window,e=t.performance,n=t.requestAnimationFrame;if(y<=0||void 0===e||void 0===n)return q(o);var i=e.now(),r=j(),d=r-o;n(function o(t){var e=Math.min((t-i)/y,1);q(r-Math.round(p(e)*d)),e<1&&n(o)})}()}),document.body.appendChild(o),o}(),H=!0;function S(){j()>=M?function(){if(!H)return;D.className="",H=!1}():function(){if(H)return;D.className="hidden",H=!0}()}function j(){return g.scrollTop||B&&document.documentElement.scrollTop||0}function q(o){g.scrollTop=o,B&&(document.documentElement.scrollTop=o)}(A?window:g).addEventListener("scroll",S),S()}
+</script>
+        
+        <script>addBackToTop({
+          diameter: 56,
+          backgroundColor: "rgbs(52,56,62, 50%)",
+          textColor: "#DE4978"
+        })</script>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.53d997fe9b5e27821df2c73ceaefbde12fcbf79e38e34138b7cf0d2e77be4d1869943b7733add4acc3712898b743bcba04e4fd21f847b3a1aadd272039c3c999.js" integrity="sha512-U9mX/pteJ4Id8sc86u&#43;94S/L954440E4t88NLne&#43;TRhplDt3M63UrMNxKJi3Q7y6BOT9IfhHs6Gq3ScgOcPJmQ=="></script>
+
+
+
+    </body>
+</html>
